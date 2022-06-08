@@ -1,0 +1,31 @@
+footer {
+  color: #005b77;
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 15%;
+  border-top: 8px solid #c00000;
+  margin-top: 160px;
+  height: 400px;
+}
+
+footer ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dark_mod {
+  color: #770010;
+  display: flex;
+  justify-content: space-between;
+  padding: 4% 15%;
+  border-top: 10px solid #222222;
+}
+
+.dark_mod ul {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

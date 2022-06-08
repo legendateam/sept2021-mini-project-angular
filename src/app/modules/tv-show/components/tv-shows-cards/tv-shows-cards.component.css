@@ -1,0 +1,6 @@
+.tv-shows__cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5%;
+  gap: 25px;
+}

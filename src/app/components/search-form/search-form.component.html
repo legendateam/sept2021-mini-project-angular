@@ -1,0 +1,8 @@
+<li>
+  <div class="search__form">
+    <form [formGroup]="form" (submit)="submit()">
+      <div><input type="text" formControlName="search" (keydown)="disabled()" placeholder="search"></div>
+    </form>
+    <span *ngIf="errorMessage">{{errorMessage}}</span>
+  </div>
+</li>

@@ -1,0 +1,40 @@
+header, ul {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 80px;
+  position: relative;
+}
+
+.toggle {
+  background-color: white;
+}
+
+.toggle.dark_mod {
+  background-color: black;
+}
+
+ul {
+  column-gap: 25px;
+  padding-top: 13px;
+}
+
+.header__position {
+  max-height: 80px;
+  z-index: 1000;
+  width: 98%;
+  height: 80px;
+  padding: 0 5%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  opacity: 0.9
+}
+
+a:hover, .active {
+  color: #de282f;
+}

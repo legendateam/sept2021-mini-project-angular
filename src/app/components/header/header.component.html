@@ -1,0 +1,28 @@
+<header>
+  <div class="header__position toggle dark_mod">
+    <ul>
+      <li><a [routerLink]="['home']"><app-logo></app-logo></a></li>
+      <li><a [routerLinkActive]="['active']" [routerLink]="['home']">Home</a></li>
+      <li><a [routerLinkActive]="['active']" [routerLink]="['movies']" [state]="{moviesHistory: true}">Movies</a></li>
+      <li><a [routerLink]="['tv-shows']">TV Shows</a></li>
+      <li><a [routerLink]="['animations']">Animations</a></li>
+      <li><a [routerLink]="['news-popular']">New&Popular</a></li>
+    </ul>
+    <ul>
+      <app-search-form></app-search-form>
+      <app-dark-mode (toggle)="checked($event)"></app-dark-mode>
+    </ul>
+  </div>
+<!--  <ul>-->
+<!--    <li><a [routerLink]="['home']"><app-logo></app-logo></a></li>-->
+<!--    <li><a [routerLink]="['home']">Home</a></li>-->
+<!--    <li><a [routerLink]="['movies']">Movies</a></li>-->
+<!--    <li><a [routerLink]="['tv-shows']">TV Shows</a></li>-->
+<!--    <li><a [routerLink]="['animations']">Animations</a></li>-->
+<!--    <li><a [routerLink]="['news-popular']">New&Popular</a></li>-->
+<!--  </ul>-->
+<!--  <ul>-->
+<!--    <app-search-form></app-search-form>-->
+<!--    <app-dark-mode (toggle)="checked($event)"></app-dark-mode>-->
+<!--  </ul>-->
+</header>

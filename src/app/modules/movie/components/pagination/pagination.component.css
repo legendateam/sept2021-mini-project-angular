@@ -1,0 +1,20 @@
+mat-paginator {
+  background-color: #940000;
+  color: white;
+}
+
+mat-paginator {
+  width: 100%;
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+
+.movie__pagination {
+  width: 95%;
+  padding: 0 5%;
+}
+
+.flex {
+  display: flex;
+  justify-content: end;
+}

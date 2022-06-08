@@ -1,0 +1,6 @@
+#movies__cards__movies_router {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  padding: 0 5%;
+}

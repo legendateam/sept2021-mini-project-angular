@@ -1,0 +1,46 @@
+.carousel__movie-size{
+  width: 95vw;
+  padding: 0 5%;
+  height: 80vh;
+  border-radius: 8%;
+}
+
+.carousel__movie {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.carousel__movie-absolute {
+  bottom: 120px;
+  left: 170px;
+  position: absolute;
+  z-index: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#carousel__movie-absolute-h1 {
+  width: 650px;
+}
+
+#carousel__movie-absolute-p {
+  width: 470px;
+}
+
+#carousel__routing {
+  display: flex;
+  justify-content: center;
+}
+
+#carousel__routing button {
+  background-color: #5c0080;
+  width: 120px;
+  height: 40px;
+  border-radius: 1em;
+  border: none;
+}
+
+#carousel__routing button:hover {
+  background-color: #46015d;
+}

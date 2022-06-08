@@ -1,0 +1,14 @@
+img {
+  width: 193px;
+  height: 250px;
+}
+
+#tv_card:hover {
+  border-bottom: 3px solid #b60000;
+}
+
+
+img:hover {
+  position: relative;
+  bottom: 5px;
+}

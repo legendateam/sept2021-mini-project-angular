@@ -1,0 +1,16 @@
+span {
+  color: red;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.search__form {
+  height: 26px;
+}
+
+input {
+  width: 245px;
+  height: 26px;
+  border-radius: 25px;
+  padding-left: 15px;
+}

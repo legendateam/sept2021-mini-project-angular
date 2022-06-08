@@ -1,0 +1,11 @@
+<div class="movie__pagination">
+  <div class="flex toggle dark_mod">
+    <mat-paginator [length]="pagination.length"
+                   [pageSize]="pagination.pageSize"
+                   [pageSizeOptions]="pagination.pageSizeOptions"
+                   [pageIndex]="page"
+                   (page)="setDataOnChange($event)"
+                   aria-label="Select page">
+    </mat-paginator>
+  </div>
+</div>

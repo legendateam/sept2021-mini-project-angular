@@ -1,0 +1,6 @@
+#tv__shows_trend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px 0;
+}

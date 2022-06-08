@@ -1,0 +1,8 @@
+img, .movies__movie_card {
+  width: 193px;
+  height: 250px;
+}
+
+.movies__movie_card img:hover {
+  border-bottom: 3px solid #b60000;
+}

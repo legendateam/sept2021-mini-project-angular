@@ -1,0 +1,6 @@
+<div *ngIf="poster">
+  <h4>Latest Movie</h4>
+  <div id="latest__movie">
+    <a [routerLink]="['/movies', movie.id]"><img src="{{poster}}" alt="{{movie.title}}"></a>
+  </div>
+</div>

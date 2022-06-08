@@ -1,0 +1,7 @@
+.trend__day h4 {
+  margin-left: 50px;
+}
+
+#trend__tv-shows__to_day, #trend__movies__to_day {
+  height: 350px;
+}
